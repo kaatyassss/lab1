@@ -53,7 +53,7 @@ namespace ConsoleApp
             }
             if (result == "n")
             {
-                Console.WriteLine("Принято");
+                Console.WriteLine("Принято!");
             }
             else
             {

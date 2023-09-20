@@ -11,6 +11,7 @@ namespace ConsoleApp
         {
             double a, b;
             char z;
+            string result;
             Console.WriteLine("Добро пожаловать в калькулятор! Вы можете выполнить операции сложения, вычитания, " +
                 "умножения и деление! Пользуйтесь с удовольствием!");
             Console.WriteLine("Введите a ");
@@ -43,7 +44,21 @@ namespace ConsoleApp
                     Console.WriteLine("Ошибка");
                     break;
             }
-            Console.ReadLine();
+            Console.WriteLine("Завершить программу? (y/n)?");
+          
+            result = Console.ReadLine().ToString();
+            if (result == "y")
+            {
+                Environment.Exit(0);
+            }
+            if (result == "n")
+            {
+                Console.WriteLine("Принято");
+            }
+            else
+            {
+                Environment.Exit(0);
+            }
         }
     }
 }

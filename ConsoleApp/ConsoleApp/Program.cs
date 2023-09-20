@@ -13,10 +13,12 @@ namespace ConsoleApp
             char z;
             Console.WriteLine("Введите a ");
             a = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Принято!");
             Console.WriteLine("Введите действие (+, -, *, /) ");
             z = Convert.ToChar(Console.ReadLine());
             Console.WriteLine("Введите b ");
             b = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Принято!");
             switch (z)
             {
                 case '+':

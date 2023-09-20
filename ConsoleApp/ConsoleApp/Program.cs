@@ -22,16 +22,16 @@ namespace ConsoleApp
             switch (z)
             {
                 case '+':
-                    Console.WriteLine("{0}+{1}={2}", a, b, a + b);
+                    Console.WriteLine("Результат: {0}+{1}={2}", a, b, a + b);
                     break;
                 case '-':
-                    Console.WriteLine("{0}-{1}={2}", a, b, a - b);
+                    Console.WriteLine("Результат: {0}-{1}={2}", a, b, a - b);
                     break;
                 case '*':
-                    Console.WriteLine("{0}*{1}={2}", a, b, a * b);
+                    Console.WriteLine("Результат: {0}*{1}={2}", a, b, a * b);
                     break;
                 case '/':
-                    Console.WriteLine("{0}/{1}={2}", a, b, a / b);
+                    Console.WriteLine("Результат: {0}/{1}={2}", a, b, a / b);
                     if (b == 0)
                     {
                         Console.WriteLine("Ошибка деления на ноль");

@@ -11,6 +11,8 @@ namespace ConsoleApp
         {
             double a, b;
             char z;
+            Console.WriteLine("Добро пожаловать в калькулятор! Вы можете выполнить операции сложения, вычитания, " +
+                "умножения и деление! Пользуйтесь с удовольствием!");
             Console.WriteLine("Введите a ");
             a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Принято!");

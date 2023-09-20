@@ -30,6 +30,10 @@ namespace ConsoleApp
                     break;
                 case '/':
                     Console.WriteLine("{0}/{1}={2}", a, b, a / b);
+                    if (b == 0)
+                    {
+                        Console.WriteLine("Ошибка деления на ноль");
+                    }
                     break;
                 default:
                     Console.WriteLine("Ошибка");
